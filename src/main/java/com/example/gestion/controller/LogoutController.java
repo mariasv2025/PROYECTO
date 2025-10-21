@@ -1,0 +1,2 @@
+package com.example.gestion.controller; import javax.servlet.annotation.WebServlet; import javax.servlet.http.*; import java.io.IOException;
+@WebServlet(name="LogoutController", urlPatterns={"/logout"}) public class LogoutController extends javax.servlet.http.HttpServlet { protected void doGet(javax.servlet.http.HttpServletRequest req, javax.servlet.http.HttpServletResponse resp) throws IOException { HttpSession s=req.getSession(false); if(s!=null) s.invalidate(); resp.sendRedirect(req.getContextPath()+"/login.jsp"); } }

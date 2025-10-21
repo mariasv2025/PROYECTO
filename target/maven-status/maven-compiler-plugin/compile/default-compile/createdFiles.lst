@@ -1,0 +1,8 @@
+com\example\gestion\controller\UsuarioController.class
+com\example\gestion\controller\LogoutController.class
+com\example\gestion\util\AuthFilter.class
+com\example\gestion\dao\UsuarioDAO.class
+com\example\gestion\util\DbUtil.class
+com\example\gestion\controller\AuthController.class
+com\example\gestion\util\PasswordUtil.class
+com\example\gestion\model\Usuario.class
